@@ -10,9 +10,9 @@
 <script src="script.js"></script>
 <script src="https://cdn.netpie.io/microgear.js"></script>
 <script type="text/javascript">
-  const APPID     = ".....";
-  const APPKEY    = ".....";
-  const APPSECRET = ".....";
+  const APPID     = "......";
+  const APPKEY    = "......";
+  const APPSECRET = "......";
 
 	var microgear = Microgear.create({
 		key: APPKEY,
@@ -22,7 +22,7 @@
 
 	microgear.on('message',function(topic,msg) {
 		document.getElementById("data").innerHTML = topic;
-		if(topic === "/SpeechToThings/youthing"){
+		if(topic === "/"+APPID+"/youthing"){
 			if(msg == "0x00"){
 				//close Youtube		
 		youtube.close();
