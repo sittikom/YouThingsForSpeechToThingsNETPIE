@@ -11,6 +11,6 @@
   
  ในการ TEST รับ-ส่งค่า ผมใช้เว็บนี้ http://cmmc.io/netpie-client/#data ***ขอบคุณคนเขียนเว็บนี้ด้วยครับ***
  
- ***แอพพลิเคชั่น SpeechToThings ยังไม่ได้อัพเดท featureนี้***
+ ***แอพพลิเคชั่น SpeechToThings อัพเดท feature นี้เรียบร้อย***
   
   
